@@ -1,0 +1,44 @@
+.title-area {
+
+    list-style-type: none
+}
+
+.headerText {
+    text-decoration: underline;
+    font-size: 2rem;
+}
+
+ul {
+    margin: auto;
+}
+
+body {
+    background-image: url('https://i.stack.imgur.com/pMAiU.jpg');
+}
+
+.instructions {
+
+    margin: 2rem 3rem 3rem 3rem;
+}
+
+.large-5 {
+    border-style: dotted;
+    border-width: 3px;
+    border-color: black;
+}
+
+h3{
+	padding:2rem 2rem 2rem 2rem;
+	margin:auto;
+	font-family: 'Joti One', cursive;
+
+}
+p{
+	font-family: 'Joti One', cursive;
+
+}
+img{
+	width:5rem;
+	height:5rem;
+	margin-bottom:2rem;
+}
