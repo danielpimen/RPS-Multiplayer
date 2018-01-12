@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
     <link href="https://fonts.googleapis.com/css?family=Joti+One" rel="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
 </head>
 
 <body>
@@ -19,12 +20,12 @@
             </li>
         </ul>
     </nav>
-    <div class='wholePage medium-12 columns'>
+    <div class='wholePage'>
         <p class='text-center instructions'>Welcome to my Rock, Paper, and Scissors Game!</p>
     </div>
     <div class="grid-x">
         <div class="small-1 medium-1 large-1 cell"></div>
-        <div class="small-5 medium-5 large-5 cell">
+        <div class="small-5 medium-5 large-5 cell player1Box">
             <h3 class='player1Name'>Player #1</h3>
             <div class="grid-x grid-margin-x">
                 <div class="small-2 cell"></div>
@@ -33,10 +34,11 @@
                     <img src='images/paper.jpg' id='player2Paper'>
                     <img src='images/scissor.jpg' id='player2Scissor'>
                 </div>
+                <div class='cell text-center'> <p class='player1Score'>Player 1 Score:</p> </div>
                 <div class="small-2 cell"></div>
             </div>
         </div>
-        <div class="small-5 medium-5 large-5 cell">
+        <div class="small-5 medium-5 large-5 cell player2Box">
             <h3 class='player2Name'>Player #2</h3>
             <div class="grid-x grid-margin-x">
                 <div class="small-2 cell"></div>
@@ -46,6 +48,7 @@
                     <img src='images/scissor.jpg' id='player2Scissor'>
                 </div>
                 <div class="small-2 cell"></div>
+                <div class='cell text-center'><p class='player2Score'>Player 2 Score: </p></div>
             </div>
         </div>
         <div class="small-1 medium-1 large-1 cell"></div>
